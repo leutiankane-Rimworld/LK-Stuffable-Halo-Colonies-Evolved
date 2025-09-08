@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!--UNSC Marine,Mjolnir and ODST armors-->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="BaseUNSCHelmet"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="BaseUNSCArmor"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="BaseUNSCHelmet"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="BaseUNSCArmor"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	
+
+  
+</Patch>
